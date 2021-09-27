@@ -23,6 +23,11 @@ function App() {
 
   return (
     <div>
+
+      <a href="https://github.com/alanakra/pwdGenerator" className="invisible md:absolute md:visible">
+        <img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"/>
+      </a>
+
       <h1 className="text-center text-3xl font-semibold text-gray-700">Password Generator</h1>
         <form className="text-center text-xl mt-8" onSubmit={generatePassword}>
           <h2>Please enter the length of your password (min 8 characters):</h2>
